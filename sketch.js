@@ -32,6 +32,7 @@ function draw() {
       let angle = noise(xoff, yoff, zoff) * TWO_PI;
       let v = p5.Vector.fromAngle(angle);
       xoff += iterator;
+
       stroke(0);
       fill(lerpColor(color("sandyBrown"), color("PowderBlue"),yoff / 5));
 
