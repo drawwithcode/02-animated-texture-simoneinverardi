@@ -1,4 +1,4 @@
-let iterator = 0.12;
+let iterator = 0.15;
 
 let scl = 20;
 let cols;
