@@ -33,7 +33,7 @@ function draw() {
 function Dynamic() {
   let yoff = 0;
   for (let x = 0; x < cols; x++){
-    let xoff = mouseX / 500;
+    let xoff = frameCount / 50;
     for (let y = 0; y < rows; y ++){
       let index = ( x + y  * width) * 4;
       let angle = noise(xoff, yoff, zoff) * TWO_PI;
